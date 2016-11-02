@@ -1,0 +1,123 @@
+div.jumbotron {
+
+    min-height: 650px;
+    /*margin-top: 200px;*/
+
+    background:  url(img/coverph.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    /*padding: 40px 25px;
+    color: #ffffff;
+    background-color: #333333;
+    background-color: #85d6de; */
+}
+div.jumbotron2 {
+    background-position: 100%;
+    background: no-repeat center center fixed;
+    margin-top: 150px;
+    min-height: 450px;
+    /*margin-top: 200px;*/
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+div.jumbotron3 {
+    background: no-repeat center center fixed;
+    background-color: #333333;
+    /*margin-left: -8px;*/
+    /*margin-right: -8px;*/
+    /*margin-top: 0;*/
+    min-height: 400px;
+    color:  #fff ;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+.container-fluid {
+    /*overflow: hidden;*/
+    /*box-sizing: border-box;*/
+    /*margin-left: -8px;*/
+    /*margin-right: -8px;*/
+}
+
+.navbar {
+    margin-bottom: 0;
+    background-color: #333333;
+    /*color: #ffffff !important;*/
+    z-index: 9999;
+    border: 0;
+    font-family: "DejaVu Serif Condensed";
+    font-size: 13px ;
+    /*line-height: 1.42857143 !important;*/
+    letter-spacing: 0;
+    border-radius: 0;
+}
+
+
+.navbar li a, .navbar  {
+    color: #fff !important;
+}
+
+#myNavbar2  {
+    font-size: 11px !important;
+}
+
+.navbar-brand {
+    padding-top: 10px;
+    }
+
+.affix {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    transition:padding 0.2s linear;
+    -webkit-transform: translateZ(0);
+    -webkit-transition:padding 0.2s linear;
+    -moz-transition:padding 0.2s linear;
+    -o-transition:padding 0.2s linear;
+}
+
+.affix-top {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    transition:padding 0.5s linear;
+    -webkit-transform: translateZ(0);
+    -webkit-transition:padding 0.5s linear;
+    -moz-transition:padding 0.5s linear;
+    -o-transition:padding 0.5s linear;
+}
+
+@media screen and (max-width: 768px) {
+    .col-sm-6 {
+        text-align: center;
+        margin: 25px 0;
+    }
+    .col-sm-5 {
+        text-align: center;
+        padding-left: 130px;
+    }
+}
+.col-sm-5 {
+    padding-left: 100px;
+}
+
+.glyphicon {
+    font-size: 50px;
+}
+.glyphicon-phone {
+    font-size: 20px;
+}
+.glyphicon-envelope {
+    font-size: 20px;
+}
+.glyphicon-map-marker {
+    font-size: 20px;
+}
+

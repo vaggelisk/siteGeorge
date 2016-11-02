@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html ng-app="SenderEngine"  >
+<head lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+    <title> Karakaxis George</title>
+    <meta charset="utf-8">
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!--<script>-->
+        <!--$(function(){-->
+            <!--$("#includedContent").load("views/navigation.html");-->
+        <!--});-->
+    <!--</script>-->
+</head>
+
+<body>
+    <!--<div id="includedContent"></div>-->
+    <div class="container">
+        <div ng-include="'views/navigation.html'"></div>
+    </div>
+
+    <div ng-view ></div>
+
+    <div id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <p class="text-muted"><a href="http://www.tekmon.net" target = "_blank"> Tekmon.net</a> Information Systems</p>
+                </div>
+                <div class="col-sm-4">
+                    <p class="text-muted"> Designed for <a href="http://www.4easbuy.com" target = "_blank"> www.4easybuy.com </a> © 2015-2016</p>
+                </div>
+                <div class="col-sm-4">
+                    <p class="text-muted"> Version 0.7.1</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-route/angular-route.min.js"></script>
+    <script src="lib/angular-resource/angular-resource.min.js"></script>
+    <script src="lib/angular-loading-bar/build/loading-bar.js"></script>
+    <script src="src/app.js"></script>
+    <script src="src/controllers.js"></script>
+    <script src="src/factories.js"></script>
+</body>
+</html>
